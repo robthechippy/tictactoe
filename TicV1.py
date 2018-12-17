@@ -11,7 +11,7 @@ def check_winner(game_map):
 
     print(game_map)
     for row in game_map:
-        print(row)
+        #print(row)
         if row.count(row[0]) == len(row) and row[0] != 0:
             # We have a winner
             return True
